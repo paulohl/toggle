@@ -1,0 +1,9 @@
+    #list {
+      display: none;
+    }
+    
+    #list.open {
+      display: block;  
+    }
+
+@media print { .hide, .show { display: none; } }
